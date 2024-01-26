@@ -1,12 +1,13 @@
 
 f
-java:S1192"IDefine a constant instead of duplicating this literal "userpage" 4 times.(Ÿ…È¾8ÒË§Ô1
-L	java:S106"+Replace this use of System.out by a logger.(ÚÛÅÿÿÿÿÿ8ŒÌ§Ô1
+java:S1192"IDefine a constant instead of duplicating this literal "userpage" 4 times.(Ÿ…È¾8³ëÄ°Ô1
+L	java:S106"+Replace this use of System.out by a logger.(ÚÛÅÿÿÿÿÿ8ùëÄ°Ô1
+L	java:S106("+Replace this use of System.out by a logger.(ìĞ€Ïşÿÿÿÿ8ìÄ°Ô1
 ]
-java:S4684."@Replace this persistent entity with a simple POJO or DTO object.(àÍ³õ8°Ò»ªÔ1
-G	java:S1067"+Replace this use of System.out by a logger.(ã†üú8«Ï§Ô1
+java:S46841"@Replace this persistent entity with a simple POJO or DTO object.(àÍ³õ8ƒìÄ°Ô1
+L	java:S106;"+Replace this use of System.out by a logger.(±¬Èıÿÿÿÿ8ŠìÄ°Ô1
 ]
-java:S4684>"@Replace this persistent entity with a simple POJO or DTO object.(àÍ³õ8´Ò»ªÔ1
+java:S4684D"@Replace this persistent entity with a simple POJO or DTO object.(àÍ³õ8¯€Å°Ô1
 M
 java:S1128
-"+Remove this unused import 'java.util.List'.(Õë±Äøÿÿÿÿ8½Ò»ªÔ1
+"+Remove this unused import 'java.util.List'.(Õë±Äøÿÿÿÿ8ìÄ°Ô1

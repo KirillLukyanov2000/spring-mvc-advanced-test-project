@@ -19,7 +19,7 @@ public class UserController {
     private final UserService userService;
 
     @GetMapping("/")
-    public ModelAndView showAllUsers(ModelAndView modelAndView){
+    public ModelAndView showAllUsers(ModelAndView modelAndView) {
 
         System.out.println("Controller UserController method showAllUsers is working");
 
@@ -30,44 +30,48 @@ public class UserController {
     }
 
     @GetMapping("/{id}")
-    public ModelAndView showOneUserAndUsers(ModelAndView modelAndView, @PathVariable Long id){
-
+    public ModelAndView showOneUserAndUsers(ModelAndView modelAndView, @PathVariable Long id) {
         Optional<User> optionalUserById = userService.findById(id);
-        if (optionalUserById.isPresent()){
+        if (optionalUserById.isPresent()) {
             modelAndView.addObject("user", optionalUserById.get());
             modelAndView.addObject("users", userService.findAll());
+            modelAndView.setViewName("userpage");
+        } else {
+            System.out.println("No such User found, please enter valid User id");
+            modelAndView.setViewName("redirect:http://www.google.com");
         }
-        modelAndView.setViewName("userpage");
+
         return modelAndView;
     }
 
     @PostMapping
     public String createOrLoginUser(ModelAndView modelAndView,
                                     User user,
-                                    @RequestParam(required = false) String createUser){
+                                    @RequestParam(required = false) String createUser, String loginUser) {
 
         modelAndView.setViewName("userpage");
-        if(Objects.nonNull(createUser)){
+        if (Objects.nonNull(createUser)) {
             userService.save(user);
             return "redirect:/users/%d".formatted(user.getId());
-        }
-        else {
-            System.out.println("User " + user.toString() + "logged on");
-            return "redirect:/users";
+        } else {
+            if (Objects.nonNull(loginUser)) {
+
+                System.out.println("User logged on with login: " + user.getLogin());
+
+            }
+            return "redirect:/users/";
         }
     }
 
     @PostMapping("/{id}")
     public String updateOrDeleteUser(ModelAndView view,
                                      User user,
-                                     @RequestParam(required = false) String deleteUser)
-    {
+                                     @RequestParam(required = false) String deleteUser) {
         view.setViewName("userpage");
-        if (Objects.nonNull(deleteUser)){
+        if (Objects.nonNull(deleteUser)) {
             userService.delete(user);
             return "redirect:/";
-        }
-        else {
+        } else {
             userService.update(user);
             return "redirect:/users/%d/".formatted(user.getId());
         }

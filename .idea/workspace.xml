@@ -4,23 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7882d9d6-fa4c-4c83-8bd1-24e68a28b979" name="Changes" comment="Controllers added">
+    <list default="true" id="7882d9d6-fa4c-4c83-8bd1-24e68a28b979" name="Changes" comment="View representation completed">
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/0/00bfb04071e9519bda3bf669be297d226d438e6e" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/0/00bfb04071e9519bda3bf669be297d226d438e6e" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/c/3c7ca62923a5f1fbb741d4edfccba8eae57d75c8" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/c/3c7ca62923a5f1fbb741d4edfccba8eae57d75c8" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/b/4bda346008bfbfc57f0c3068a6340b550387da54" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/b/4bda346008bfbfc57f0c3068a6340b550387da54" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/3/83c6031a091ee3049bf54578f5f176d3fb244c07" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/3/83c6031a091ee3049bf54578f5f176d3fb244c07" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/2/b237fd1ad96df6e7fa41f5cf10e487b8379c9af0" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/2/b237fd1ad96df6e7fa41f5cf10e487b8379c9af0" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/3/c394140c9cee2c48b8d35f48b9d70ecdd868bcea" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/3/c394140c9cee2c48b8d35f48b9d70ecdd868bcea" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/lukyanov/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/lukyanov/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/lukyanov/controller/HomePageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/lukyanov/controller/HomePageController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ru/lukyanov/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/lukyanov/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/lukyanov/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/lukyanov/entity/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/lukyanov/repository/UserRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/lukyanov/repository/UserRepo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/lukyanov/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/lukyanov/service/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/userpage.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/userpage.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,29 +35,29 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "spring.configuration.checksum": "625d3dcfc4ef4852fa3aa4e56ea5f187",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SONARLINT_PRECOMMIT_ANALYSIS&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;625d3dcfc4ef4852fa3aa4e56ea5f187&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "postgresql"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;postgresql&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\zarad\IdeaProjects\spring-mvc-advanced-test-project\src\main\webapp\static" />
@@ -105,7 +92,8 @@
       <option name="presentableId" value="Default" />
       <updated>1706252033877</updated>
       <workItem from="1706252040042" duration="2609000" />
-      <workItem from="1706257334705" duration="5619000" />
+      <workItem from="1706257334705" duration="8831000" />
+      <workItem from="1706275998732" duration="1376000" />
     </task>
     <task id="LOCAL-00001" summary="First successful project run.">
       <option name="closed" value="true" />
@@ -123,7 +111,15 @@
       <option name="project" value="LOCAL" />
       <updated>1706264830195</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="View representation completed">
+      <option name="closed" value="true" />
+      <created>1706269530006</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1706269530006</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -132,6 +128,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="First successful project run." />
     <MESSAGE value="Controllers added" />
-    <option name="LAST_COMMIT_MESSAGE" value="Controllers added" />
+    <MESSAGE value="View representation completed" />
+    <option name="LAST_COMMIT_MESSAGE" value="View representation completed" />
   </component>
 </project>
