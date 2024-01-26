@@ -1,7 +1,7 @@
 
 f
 java:S1192"IDefine a constant instead of duplicating this literal "userpage" 4 times.(Ÿ…È¾8ÒË§Ô1
-G	java:S106"+Replace this use of System.out by a logger.(õŒõ8ŒÌ§Ô1
+L	java:S106"+Replace this use of System.out by a logger.(ÚÛÅÿÿÿÿÿ8ŒÌ§Ô1
 ]
 java:S4684."@Replace this persistent entity with a simple POJO or DTO object.(àÍ³õ8°Ò»ªÔ1
 G	java:S1067"+Replace this use of System.out by a logger.(ã†üú8«Ï§Ô1

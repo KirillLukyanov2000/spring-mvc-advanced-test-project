@@ -5,7 +5,8 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>M5L9_Example</title>
+    <title>MVC Webapp</title>
+    <link rel="shortcut icon" href="/static/favicon.png">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
           integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
 </head>
@@ -13,31 +14,35 @@
 <div class="container">
     <form action="./" method="post" class="form-horizontal">
         <fieldset>
+            <br>
             <!-- FORM NAME -->
             <legend>User Page</legend>
+            <br>
+            <hr>
+            <br>
             <!-- LOGIN INPUT -->
             <div class="form-group">
                 <label class="col-md-4 control-label" for="login">Login</label>
-                <div class="col-md-4">
+                <div class="col-md-4"><br>
                     <input id="login" name="login" value="${user.login}"
                            type="text" placeholder="none" class="form-control input=md">
                 </div>
             </div>
-
+            <br>
             <!-- PASSWORD INPUT -->
             <div class="form-group">
                 <label class="col-md-4 control-label" for="password">Password</label>
-                <div class="col-md-4">
+                <div class="col-md-4"><br>
                     <input id="password" name="password" value="${user.password}"
                            type="text" placeholder="none" class="form-control input=md">
                 </div>
             </div>
             <input type="hidden" value="${user.id}">
-
+            <br>
             <!-- BUTTON (DOUBLE) -->
             <div class="form-group">
                 <label class="col-md-4 control-label" for="operation">Operation</label>
-                <div id="operation" class="col-md-8">
+                <div id="operation" class="col-md-8"><br>
                     <c:choose>
                         <c:when test="${requestScope.user!=null}">
                             <button name="updateUser" class="btn btn-success">Update user</button>
@@ -52,19 +57,16 @@
             </div>
         </fieldset>
     </form>
-
+    <br>
+    <hr>
+    <br>
     <h2>List users</h2>
     <c:forEach var="user" items="${requestScope.users}">
     <div>
-        <a href="/users/${user.id}/">Edit</a>: ${user}
+        <a href="/users/${user.id}/">Edit</a> -> ${user}
     </div>
     </c:forEach>
 
-    <%--    <c:if test="${sessionScope.user}">--%>
-    <%--    <div>--%>
-    <%--        Session user: ${sessionScope.user}--%>
-    <%--    </div>--%>
-    <%--    </c:if>--%>
 
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
             integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"

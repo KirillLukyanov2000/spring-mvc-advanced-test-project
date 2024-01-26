@@ -10,7 +10,7 @@ public class HomePageController {
 
     @RequestMapping(method = RequestMethod.GET, value = "/")
     public String getHomePage(){
-        System.out.println("Controller HomePageController is actioned");
+        System.out.println("Controller HomePageController is working");
         return "redirect:/users/";
     }
 

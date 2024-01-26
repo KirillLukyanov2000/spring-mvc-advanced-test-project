@@ -21,7 +21,7 @@ public class UserController {
     @GetMapping("/")
     public ModelAndView showAllUsers(ModelAndView modelAndView){
 
-        System.out.println("Controller UserController method showAllUsers is actioned");
+        System.out.println("Controller UserController method showAllUsers is working");
 
         modelAndView.addObject("users", userService.findAll());
 

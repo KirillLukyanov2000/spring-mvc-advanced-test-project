@@ -13,11 +13,11 @@ public class App {
     public static void main(String[] args) {
         ConfigurableApplicationContext run = SpringApplication.run(App.class, args);
 
-//        UserService userService = run.getBean(UserService.class);
-//        List<User> all = userService.findAll();
-//        for (User user : all) {
-//            System.out.println(user);
-//        }
+        UserService userService = run.getBean(UserService.class);
+        List<User> all = userService.findAll();
+        for (User user : all) {
+            System.out.println(user);
+        }
 
     }
 }
