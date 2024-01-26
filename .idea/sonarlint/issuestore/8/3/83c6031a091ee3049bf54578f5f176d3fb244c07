@@ -1,0 +1,6 @@
+
+j
+java:S4488"HReplace "@RequestMapping(method = RequestMethod.GET)" with "@GetMapping"(”†·äøÿÿÿÿ8ŠÂ‹§Ô1
+L	java:S106"+Replace this use of System.out by a logger.(öÓÓöüÿÿÿÿ8Â‹§Ô1
+k
+java:S1128"IRemove this unused import 'org.springframework.web.servlet.ModelAndView'.(Ç¨ÿäûÿÿÿÿ8Â‹§Ô1
