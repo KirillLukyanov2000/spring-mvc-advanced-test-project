@@ -1,0 +1,12 @@
+
+Y
+java:S1854"7Remove this useless assignment to local variable "run".(“Èö°üÿÿÿÿ8êŞ“¥Ô1
+J
+java:S1481"(Remove this unused "run" local variable.(“Èö°üÿÿÿÿ8…ß“¥Ô1
+X	java:S125"<This block of commented-out lines of code should be removed.(º¬¹Ø8Üß“¥Ô1
+P
+java:S1128"4Remove this unused import 'ru.lukyanov.entity.User'.(çÕ¦G8²“û¦Ô1
+^
+java:S1128"<Remove this unused import 'ru.lukyanov.service.UserService'.(«šíÊşÿÿÿÿ8²“û¦Ô1
+M
+java:S1128	"+Remove this unused import 'java.util.List'.(Õë±Äøÿÿÿÿ8³“û¦Ô1
