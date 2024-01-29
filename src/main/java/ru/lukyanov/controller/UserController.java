@@ -7,7 +7,6 @@ import org.springframework.web.servlet.ModelAndView;
 import ru.lukyanov.entity.User;
 import ru.lukyanov.service.UserService;
 
-import java.util.List;
 import java.util.Objects;
 import java.util.Optional;
 
@@ -40,7 +39,6 @@ public class UserController {
             System.out.println("No such User found, please enter valid User id");
             modelAndView.setViewName("redirect:http://www.google.com");
         }
-
         return modelAndView;
     }
 
@@ -48,16 +46,13 @@ public class UserController {
     public String createOrLoginUser(ModelAndView modelAndView,
                                     User user,
                                     @RequestParam(required = false) String createUser, String loginUser) {
-
         modelAndView.setViewName("userpage");
         if (Objects.nonNull(createUser)) {
             userService.save(user);
             return "redirect:/users/%d".formatted(user.getId());
         } else {
             if (Objects.nonNull(loginUser)) {
-
                 System.out.println("User logged on with login: " + user.getLogin());
-
             }
             return "redirect:/users/";
         }
