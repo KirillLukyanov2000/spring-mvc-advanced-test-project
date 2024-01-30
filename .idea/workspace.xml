@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7882d9d6-fa4c-4c83-8bd1-24e68a28b979" name="Changes" comment="methods in UserController added.">
+    <list default="true" id="7882d9d6-fa4c-4c83-8bd1-24e68a28b979" name="Changes" comment="Final clean version.">
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/0/00bfb04071e9519bda3bf669be297d226d438e6e" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/0/00bfb04071e9519bda3bf669be297d226d438e6e" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/3/83c6031a091ee3049bf54578f5f176d3fb244c07" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/3/83c6031a091ee3049bf54578f5f176d3fb244c07" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
@@ -24,6 +26,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JpbToolWindowState">
+    <option name="isToolWindowVisible" value="false" />
   </component>
   <component name="ProjectId" id="2bTvkbWGFjjSR4wxkRYK8bO7QoK" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -94,6 +99,8 @@
       <workItem from="1706252040042" duration="2609000" />
       <workItem from="1706257334705" duration="8831000" />
       <workItem from="1706275998732" duration="1760000" />
+      <workItem from="1706511721347" duration="758000" />
+      <workItem from="1706606388766" duration="2249000" />
     </task>
     <task id="LOCAL-00001" summary="First successful project run.">
       <option name="closed" value="true" />
@@ -127,7 +134,15 @@
       <option name="project" value="LOCAL" />
       <updated>1706277731927</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Final clean version.">
+      <option name="closed" value="true" />
+      <created>1706512116229</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1706512116229</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -138,6 +153,7 @@
     <MESSAGE value="Controllers added" />
     <MESSAGE value="View representation completed" />
     <MESSAGE value="methods in UserController added." />
-    <option name="LAST_COMMIT_MESSAGE" value="methods in UserController added." />
+    <MESSAGE value="Final clean version." />
+    <option name="LAST_COMMIT_MESSAGE" value="Final clean version." />
   </component>
 </project>
