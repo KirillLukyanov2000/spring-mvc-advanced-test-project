@@ -4,12 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7882d9d6-fa4c-4c83-8bd1-24e68a28b979" name="Changes" comment="Final clean version.">
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/0/00bfb04071e9519bda3bf669be297d226d438e6e" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/0/00bfb04071e9519bda3bf669be297d226d438e6e" afterDir="false" />
+    <list default="true" id="7882d9d6-fa4c-4c83-8bd1-24e68a28b979" name="Changes" comment="ApiController with manual json mapping added">
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/3/83c6031a091ee3049bf54578f5f176d3fb244c07" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/3/83c6031a091ee3049bf54578f5f176d3fb244c07" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/2/b237fd1ad96df6e7fa41f5cf10e487b8379c9af0" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/2/b237fd1ad96df6e7fa41f5cf10e487b8379c9af0" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/lukyanov/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/lukyanov/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/lukyanov/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/lukyanov/entity/User.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,6 +24,7 @@
       <list>
         <option value="Jsp File" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -29,6 +33,9 @@
   </component>
   <component name="JpbToolWindowState">
     <option name="isToolWindowVisible" value="false" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2bTvkbWGFjjSR4wxkRYK8bO7QoK" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -40,35 +47,74 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
-    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
-    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
-    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SONARLINT_PRECOMMIT_ANALYSIS&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;spring.configuration.checksum&quot;: &quot;625d3dcfc4ef4852fa3aa4e56ea5f187&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "spring.configuration.checksum": "625d3dcfc4ef4852fa3aa4e56ea5f187",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;DatabaseDriversLRU&quot;: [
-      &quot;postgresql&quot;
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "postgresql"
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\zarad\IdeaProjects\spring-mvc-advanced-test-project\src\main\webapp\static" />
     </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="ru.lukyanov.service" />
+    </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.UserServiceTest.findById">
+    <configuration name="UserServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring-mvc-advanced-test-project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.lukyanov.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.lukyanov.service" />
+      <option name="MAIN_CLASS_NAME" value="ru.lukyanov.service.UserServiceTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserServiceTest.findById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring-mvc-advanced-test-project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.lukyanov.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.lukyanov.service" />
+      <option name="MAIN_CLASS_NAME" value="ru.lukyanov.service.UserServiceTest" />
+      <option name="METHOD_NAME" value="findById" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="App" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="spring-mvc-advanced-test-project" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="ru.lukyanov.App" />
@@ -84,6 +130,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.UserServiceTest.findById" />
+        <item itemvalue="JUnit.UserServiceTestVersion1" />
         <item itemvalue="Spring Boot.App" />
       </list>
     </recent_temporary>
@@ -100,7 +148,15 @@
       <workItem from="1706257334705" duration="8831000" />
       <workItem from="1706275998732" duration="1760000" />
       <workItem from="1706511721347" duration="758000" />
-      <workItem from="1706606388766" duration="2249000" />
+      <workItem from="1706606388766" duration="3023000" />
+      <workItem from="1706622193194" duration="303000" />
+      <workItem from="1706622651777" duration="186000" />
+      <workItem from="1706624153223" duration="904000" />
+      <workItem from="1706682817307" duration="1878000" />
+      <workItem from="1706693821733" duration="116000" />
+      <workItem from="1706697095643" duration="29000" />
+      <workItem from="1706795420745" duration="14000" />
+      <workItem from="1706857917634" duration="6073000" />
     </task>
     <task id="LOCAL-00001" summary="First successful project run.">
       <option name="closed" value="true" />
@@ -142,7 +198,15 @@
       <option name="project" value="LOCAL" />
       <updated>1706512116229</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="ApiController with manual json mapping added">
+      <option name="closed" value="true" />
+      <created>1706610103645</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1706610103645</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -154,6 +218,7 @@
     <MESSAGE value="View representation completed" />
     <MESSAGE value="methods in UserController added." />
     <MESSAGE value="Final clean version." />
-    <option name="LAST_COMMIT_MESSAGE" value="Final clean version." />
+    <MESSAGE value="ApiController with manual json mapping added" />
+    <option name="LAST_COMMIT_MESSAGE" value="ApiController with manual json mapping added" />
   </component>
 </project>

@@ -1283,3 +1283,9 @@ w
 G.idea/sonarlint/issuestore/1/2/1257d5c50647e8b8dc8ce4f297b9f6d5de3ed4c4,e\d\eda02c6d0d74cc3d3cbd287a9eede7cb84b78255
 w
 G.idea/sonarlint/issuestore/5/7/573f43b5ec5498b682b483dc196cfba499349e38,5\5\5582604fb552daee0b37dd79d4f6b0a40a4b2cb0
+f
+6src/test/java/ru/lukyanov/service/UserServiceTest.java,3\7\37ea1c7cb5b4358b12328257db376addc5a7a21d
+h
+8src/test/java/ru/lukyanov/service/UserServiceTestV1.java,c\2\c231b3848c9b2fec9b169393b0c74a761ac3ed28
+n
+>src/test/java/ru/lukyanov/service/UserServiceTestVersion1.java,8\f\8f0bf3c64b76ff1d211e8607c25ec30b8b7a1f85
