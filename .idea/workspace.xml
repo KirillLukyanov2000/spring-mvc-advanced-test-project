@@ -4,15 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7882d9d6-fa4c-4c83-8bd1-24e68a28b979" name="Changes" comment="ApiController with manual json mapping added">
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/3/83c6031a091ee3049bf54578f5f176d3fb244c07" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/3/83c6031a091ee3049bf54578f5f176d3fb244c07" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/2/b237fd1ad96df6e7fa41f5cf10e487b8379c9af0" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/2/b237fd1ad96df6e7fa41f5cf10e487b8379c9af0" afterDir="false" />
+    <list default="true" id="7882d9d6-fa4c-4c83-8bd1-24e68a28b979" name="Changes" comment="UserService Unit tests added">
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/lukyanov/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/lukyanov/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/lukyanov/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/lukyanov/entity/User.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,8 +18,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Jsp File" />
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
+        <option value="AnnotationType" />
       </list>
     </option>
   </component>
@@ -82,8 +78,42 @@
     <key name="CreateTestDialog.RecentsKey">
       <recent name="ru.lukyanov.service" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="ru.lukyanov.integrations" />
+    </key>
   </component>
-  <component name="RunManager" selected="JUnit.UserServiceTest.findById">
+  <component name="RunManager" selected="JUnit.UserServiceIntegrationDetailedTest">
+    <configuration name="UserServiceIntegrationDetailedTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring-mvc-advanced-test-project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.lukyanov.integrations.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.lukyanov.integrations" />
+      <option name="MAIN_CLASS_NAME" value="ru.lukyanov.integrations.UserServiceIntegrationDetailedTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserServiceIntegrationTest.findById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring-mvc-advanced-test-project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.lukyanov.integrations.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.lukyanov.integrations" />
+      <option name="MAIN_CLASS_NAME" value="ru.lukyanov.integrations.UserServiceIntegrationTest" />
+      <option name="METHOD_NAME" value="findById" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="UserServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="spring-mvc-advanced-test-project" />
       <extension name="coverage">
@@ -130,6 +160,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.UserServiceIntegrationDetailedTest" />
+        <item itemvalue="JUnit.UserServiceIntegrationTest.findById" />
         <item itemvalue="JUnit.UserServiceTest.findById" />
         <item itemvalue="JUnit.UserServiceTestVersion1" />
         <item itemvalue="Spring Boot.App" />
@@ -156,7 +188,7 @@
       <workItem from="1706693821733" duration="116000" />
       <workItem from="1706697095643" duration="29000" />
       <workItem from="1706795420745" duration="14000" />
-      <workItem from="1706857917634" duration="6073000" />
+      <workItem from="1706857917634" duration="11524000" />
     </task>
     <task id="LOCAL-00001" summary="First successful project run.">
       <option name="closed" value="true" />
@@ -206,7 +238,15 @@
       <option name="project" value="LOCAL" />
       <updated>1706610103645</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="UserService Unit tests added">
+      <option name="closed" value="true" />
+      <created>1706865328691</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1706865328691</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -219,6 +259,7 @@
     <MESSAGE value="methods in UserController added." />
     <MESSAGE value="Final clean version." />
     <MESSAGE value="ApiController with manual json mapping added" />
-    <option name="LAST_COMMIT_MESSAGE" value="ApiController with manual json mapping added" />
+    <MESSAGE value="UserService Unit tests added" />
+    <option name="LAST_COMMIT_MESSAGE" value="UserService Unit tests added" />
   </component>
 </project>
