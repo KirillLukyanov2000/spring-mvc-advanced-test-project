@@ -4,15 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7882d9d6-fa4c-4c83-8bd1-24e68a28b979" name="Changes" comment="Integration tests added">
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/f/8f0bf3c64b76ff1d211e8607c25ec30b8b7a1f85" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/2/c231b3848c9b2fec9b169393b0c74a761ac3ed28" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/8/f/8f0bf3c64b76ff1d211e8607c25ec30b8b7a1f85" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/c/2/c231b3848c9b2fec9b169393b0c74a761ac3ed28" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="7882d9d6-fa4c-4c83-8bd1-24e68a28b979" name="Changes" comment="MockMvc Controller tests added" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -196,7 +188,7 @@
       <workItem from="1706795420745" duration="14000" />
       <workItem from="1706857917634" duration="12698000" />
       <workItem from="1707114600272" duration="713000" />
-      <workItem from="1707228697615" duration="511000" />
+      <workItem from="1707228697615" duration="1474000" />
     </task>
     <task id="LOCAL-00001" summary="First successful project run.">
       <option name="closed" value="true" />
@@ -262,7 +254,15 @@
       <option name="project" value="LOCAL" />
       <updated>1706874972771</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="MockMvc Controller tests added">
+      <option name="closed" value="true" />
+      <created>1707230464842</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1707230464842</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -277,6 +277,7 @@
     <MESSAGE value="ApiController with manual json mapping added" />
     <MESSAGE value="UserService Unit tests added" />
     <MESSAGE value="Integration tests added" />
-    <option name="LAST_COMMIT_MESSAGE" value="Integration tests added" />
+    <MESSAGE value="MockMvc Controller tests added" />
+    <option name="LAST_COMMIT_MESSAGE" value="MockMvc Controller tests added" />
   </component>
 </project>
