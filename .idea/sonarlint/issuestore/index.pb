@@ -1285,10 +1285,6 @@ w
 G.idea/sonarlint/issuestore/5/7/573f43b5ec5498b682b483dc196cfba499349e38,5\5\5582604fb552daee0b37dd79d4f6b0a40a4b2cb0
 f
 6src/test/java/ru/lukyanov/service/UserServiceTest.java,3\7\37ea1c7cb5b4358b12328257db376addc5a7a21d
-h
-8src/test/java/ru/lukyanov/service/UserServiceTestV1.java,c\2\c231b3848c9b2fec9b169393b0c74a761ac3ed28
-n
->src/test/java/ru/lukyanov/service/UserServiceTestVersion1.java,8\f\8f0bf3c64b76ff1d211e8607c25ec30b8b7a1f85
 v
 Fsrc/test/java/ru/lukyanov/integrations/UserServiceIntegrationTest.java,3\2\32201f6f10e2a27f87bf7b3dc01aa351dd65e7cc
 ~
@@ -2458,8 +2454,6 @@ Q.idea/sonarlint/securityhotspotstore/f/3/f3cc5ffc5c4fbc8d33759bcea65da811a9ab90
 Å
 Q.idea/sonarlint/securityhotspotstore/f/4/f413c1dd282f10eb2e94f7e2a1d1d8ba43164822,8\e\8e7bf988dc5a40c68e12a187ccf069cd8713958a
 Å
-Q.idea/sonarlint/securityhotspotstore/c/2/c231b3848c9b2fec9b169393b0c74a761ac3ed28,8\d\8d797bd8fd3274e27f95bf1ca116d841626bda5f
-Å
 Q.idea/sonarlint/securityhotspotstore/f/4/f4c92adc13e765d238a1d905f680c4dbacad4674,a\1\a10c83ed43c337eff02ff7c1f11eae9a2b551dac
 Å
 Q.idea/sonarlint/securityhotspotstore/f/7/f7591c717631aa65201b2dff95386ec9e318d655,2\0\20da2690c297a650bc53c0c8b5237e986737e13e
@@ -2483,8 +2477,6 @@ w
 G.idea/sonarlint/issuestore/b/f/bf254b7d52dc985f7f58ee8eff84ee8ef9089616,6\7\6768d7b4e9a6414a92b5aca2a7c024750f9e5919
 Å
 Q.idea/sonarlint/securityhotspotstore/f/f/ff5bb05251cfc58235605d7b3317187d8623d7f5,7\6\76a03a30b5961c82ac0097cb06c3ca7539ceca27
-Å
-Q.idea/sonarlint/securityhotspotstore/8/f/8f0bf3c64b76ff1d211e8607c25ec30b8b7a1f85,7\e\7e1020b2c3194935219946b27b0c5dd11734fb82
 w
 G.idea/sonarlint/issuestore/b/f/bf2472c7636e29580c3392ac18622e29addf54c5,4\b\4be792b16bbbde14836d43a67878ec0795b2213b
 w
@@ -2597,3 +2589,5 @@ w
 G.idea/sonarlint/issuestore/0/9/0998d6f91870de2c6fe17421439ba49cb72364e1,d\4\d413e535943ba0d24b7c9a3e586e86671491d99b
 w
 G.idea/sonarlint/issuestore/4/3/43ac7db405f36d2b324f0f8b890933a8ae31ed45,e\9\e9cafd8ddb8086dfac9f57d96c07565dcab75aec
+l
+<src/test/java/ru/lukyanov/controller/UserControllerTest.java,3\5\35b6ed7c338b46ced4a33fec853d4728516c4391
