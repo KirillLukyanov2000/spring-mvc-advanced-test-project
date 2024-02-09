@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7882d9d6-fa4c-4c83-8bd1-24e68a28b979" name="Changes" comment="MockMvc Controller tests added" />
+    <list default="true" id="7882d9d6-fa4c-4c83-8bd1-24e68a28b979" name="Changes" comment="MockMvc Controller tests added">
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/lukyanov/controller/ApiRestController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,9 +20,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Jsp File" />
-        <option value="Class" />
         <option value="AnnotationType" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -79,7 +85,7 @@
       <recent name="ru.lukyanov.integrations" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.UserControllerTest.showAllUsers">
+  <component name="RunManager" selected="Spring Boot.App">
     <configuration name="UserControllerTest.showAllUsers" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="spring-mvc-advanced-test-project" />
       <extension name="coverage">
@@ -158,11 +164,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.App" />
         <item itemvalue="JUnit.UserControllerTest.showAllUsers" />
         <item itemvalue="JUnit.UserServiceIntegrationDetailedTest" />
         <item itemvalue="JUnit.UserServiceIntegrationTest.findById" />
         <item itemvalue="JUnit.UserServiceTest.findById" />
-        <item itemvalue="Spring Boot.App" />
       </list>
     </recent_temporary>
   </component>
@@ -188,7 +194,10 @@
       <workItem from="1706795420745" duration="14000" />
       <workItem from="1706857917634" duration="12698000" />
       <workItem from="1707114600272" duration="713000" />
-      <workItem from="1707228697615" duration="1474000" />
+      <workItem from="1707228697615" duration="1683000" />
+      <workItem from="1707316202694" duration="234000" />
+      <workItem from="1707317351419" duration="113000" />
+      <workItem from="1707480536616" duration="869000" />
     </task>
     <task id="LOCAL-00001" summary="First successful project run.">
       <option name="closed" value="true" />
@@ -262,7 +271,23 @@
       <option name="project" value="LOCAL" />
       <updated>1707230464842</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="MockMvc Controller tests added">
+      <option name="closed" value="true" />
+      <created>1707230573160</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1707230573160</updated>
+    </task>
+    <task id="LOCAL-00011" summary="MockMvc Controller tests added">
+      <option name="closed" value="true" />
+      <created>1707230732591</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1707230732591</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

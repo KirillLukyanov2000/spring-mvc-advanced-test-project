@@ -2591,3 +2591,5 @@ w
 G.idea/sonarlint/issuestore/4/3/43ac7db405f36d2b324f0f8b890933a8ae31ed45,e\9\e9cafd8ddb8086dfac9f57d96c07565dcab75aec
 l
 <src/test/java/ru/lukyanov/controller/UserControllerTest.java,3\5\35b6ed7c338b46ced4a33fec853d4728516c4391
+k
+;src/main/java/ru/lukyanov/controller/ApiRestController.java,0\e\0e3c2bf67c566a55a92d13d25fab4571a1ed392c
